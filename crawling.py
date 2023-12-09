@@ -43,8 +43,8 @@ if list_items:
     username_field = driver.find_element(By.ID, "userId")
     password_field = driver.find_element(By.ID, "userPwd")
 
-    username_field.send_keys("bigsmileday")
-    password_field.send_keys("genius88@@")
+    username_field.send_keys("아이디")
+    password_field.send_keys("패스워드")
 
     # 로그인 버튼 클릭
     login_button = driver.find_element(By.ID, "btn_login")
